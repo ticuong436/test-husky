@@ -20,7 +20,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint-staged": "lint-staged --config lint-staged.js",
+    "typescript": "tsc --project tsconfig.json --noEmit",
+    "husky-install": "husky install"
+
+
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +44,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "tsc-files": "^1.1.3"
   }
 }
