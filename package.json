@@ -21,10 +21,10 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
+        "typescript": "tsc --project tsconfig.json --noEmit",
         "lint": "eslint src --color",
         "prettier": "prettier src -check",
         "lint-staged": "lint-staged --config lint-staged.js",
-        "typescript": "tsc --project tsconfig.json --noEmit",
         "husky-install": "husky install"
     },
     "eslintConfig": {
@@ -49,7 +49,7 @@
         "@typescript-eslint/eslint-plugin": "^5.59.5",
         "@typescript-eslint/parser": "^5.59.5",
         "eslint": "^8.40.0",
-        "eslint-plugin-react": "^7.32.2",
+        "eslint-plugin-react": "^7.30.0",
         "husky": "^8.0.3",
         "lint-staged": "^13.2.2",
         "prettier": "^2.8.8",
